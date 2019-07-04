@@ -18,21 +18,26 @@ a {
     padding-right: 15px;
 }
 
+a:hover {
+    color: orange;
+}
 footer {
     width: 100%;
     height:70px;
     background: url(../images/dark-honeycomb.png);
-    color: orange;
+    color: #fff;
     text-align: center;
-    margin-top: 163px;
+    margin-top: 156px;
+    border-top: 5px solid orange;
 }
+
 
 
 /* Everything within the header */
 header {
     background: url(../images/dark-honeycomb.png);
     height: 85px;
-    border-bottom: 2px solid gray;
+    border-bottom: 2px solid orange;
     width: 100%;
     margin: 0 auto;
 }
@@ -71,6 +76,7 @@ section {
     margin: 0 auto;
     background: #fff;
     margin-top: 40px;
+    border: 1px solid gray;
 }
 
 #aboutMe {
@@ -83,3 +89,5 @@ p {
     line-height: 2em;
     padding: 5px 25px 10px 25px;
 }
+
+/* Portfolio Page */
