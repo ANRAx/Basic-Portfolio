@@ -29,6 +29,8 @@ footer {
     text-align: center;
     margin-top: 156px;
     border-top: 5px solid orange;
+    position: absolute;
+    bottom: 0;
 }
 
 
@@ -79,7 +81,7 @@ section {
     border: 1px solid gray;
 }
 
-#aboutMe {
+#aboutMe, #portfoliotitle {
     color: #4aaaa5;
     padding: 25px 0 25px 30px;
     margin-left: 20px;
@@ -91,3 +93,24 @@ p {
 }
 
 /* Portfolio Page */
+
+.portfoliocontent {
+    padding-bottom: 450px;
+}
+
+.projectimage {
+    height: 200px;
+    width: 200px;
+}
+
+.projectcard {
+    float: left;
+    padding: 25px 5px 0 20px;
+}
+
+h3{
+    text-align: center;
+    clear: both;
+}
+
+
